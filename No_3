@@ -1,0 +1,35 @@
++ Nama : Feby Alfaraby
++ NIM : 20210040133
++ Kelas : TI21E
+
++ 3. Buatlah resume(ulasan) informasi tentang versi terakhir JAVA saat ini ! Jelaskan fitur-fitur yang ditambahkan beserta kelebihan-kelebihannya
++ JAWAB
+
++ Setelah Kehadiran JDK 18, pada bulan ini muncul JDK generasi selanjutnya yaitu JDK 19 dalam bentuk ketersedian umum dan juga menambahkan sejumlah fitur terbaru.
++ Diantaranya adalah :
++ 1. Port RISC-V Linux sekarang sudah tersedia.
++ 2. Fungsi Asing dan API Memori dalam bentuk pratinjau dengan OpenJDK 19. API memungkinkan interoperabilitas dengan kode dan data di luar runtime Java, seperti program Java untuk memanggil pustaka asli dan data asli proses.
++ 3. Utas Virtual dalam bentuk pratinjau sebagai implementasi utas ringan untuk aplikasi bersamaan.
++ 4. Pada tahap inkubator keempatnya adalah Java Vector API untuk komputasi vektor yang pada saat run-time menggunakan instruksi vektor yang optimal berdasarkan dukungan arsitektur CPU.
++ 5. Konkurensi terstruktur dalam bentuk inkubator untuk menyederhanakan Java multi-threading.
++ 6. Pola Rekam dalam pratinjau untuk mendekonstruksi nilai rekaman.
++ 7. API baru untuk memungkinkan penyesuaian skema tanda tangan untuk koneksi TLS dan DTLS individual.
++ 8. Dukungan untuk Unicode 14.
++ 9. Format Tanggal-Waktu tambahan ditambahkan.
++
++
++
++ - Konkurensi terstruktur, dalam fase inkubator, dimaksudkan untuk menyederhanakan pemrograman multithread melalui API konkurensi terstruktur.
++   Konkurensi ini memperlakukan beberapa tugas yang berjalan di utas yang berbeda sebagai satu unit kerja, untuk merampingkan penanganan dan pembatalan kesalahan.
++   Keandalan dan observabilitas ditingkatkan. Fitur ini berasal dari Project Loom, yang memperkenalkan model konkurensi ringan baru.
++
++
++ - Pratinjau pola rekaman, untuk mendekonstruksi nilai rekaman. Pola rekaman dan pola tipe dapat disarangkan untuk mengaktifkan bentuk navigasi dan pemrosesan data yang deklaratif, kuat, dan dapat disusun. 
++   Sasaran proposal mencakup perluasan pencocokan pola untuk mengekspresikan kueri data yang lebih canggih dan dapat dikomposisi tanpa mengubah sintaks atau semantik pola tipe.
++   Proposal ini dibuat berdasarkan pencocokan pola untuk instanceof, yang dikirimkan dalam JDK 16 pada Maret 2021. Rencana di masa mendatang mungkin memerlukan pola rekaman untuk diperluas dengan kemampuan seperti pola larik dan pola vararg.
++   Pola rekaman adalah bagian dari Project Amber, upaya untuk mengeksplorasi dan menginkubasi fitur Java yang lebih kecil dan berorientasi pada produktivitas.
++
++
++ - Dengan port Linux/RISC-V, Java akan mendapatkan dukungan untuk set instruksi perangkat keras yang sudah didukung oleh berbagai rantai alat bahasa.
++   RISC-V sebenarnya adalah keluarga ISA terkait. Port Linux/RISC-V hanya akan mendukung konfigurasi RV64GV dari RISC-V, ISA 64-bit 
++   tujuan umum yang menyertakan instruksi vektor. Pengembang Java dapat mempertimbangkan konfigurasi RISC-V lainnya di masa mendatang.
